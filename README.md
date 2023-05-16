@@ -1,4 +1,4 @@
-# Estructura de Carpetas Recomendada para una Aplicación en Angular 14
+# Estructura de Carpetas Recomendada para una Aplicación en Angular
 
 A continuación se muestra la estructura de carpetas recomendada para proyectos de Angular 14:
 
@@ -25,3 +25,9 @@ A continuación se muestra la estructura de carpetas recomendada para proyectos 
 - **tslint.json**: Archivo de configuración para las reglas de linting de TypeScript.
 
 Esta estructura de carpetas es una recomendación general y puedes adaptarla según las necesidades específicas de tu proyecto.
+
+***
+A list of technologies used within the project:
+* [Technologie name](https://example.com): Version 12.3 
+* [Technologie name](https://example.com): Version 2.34
+* [Library name](https://example.com): Version 1234
