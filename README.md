@@ -2,7 +2,7 @@
 
 A continuación se muestra la estructura de carpetas recomendada para proyectos de Angular 14:
 
-- **src**: Carpeta raíz que contiene todo el código fuente de tu aplicación.
+- ** ## src**: Carpeta raíz que contiene todo el código fuente de tu aplicación.
     - **app**: Carpeta que contiene el código específico de tu aplicación.
         - **components**: Contiene los componentes de tu aplicación. Puedes organizarlos en subcarpetas según su función o características.
         - **services**: Aquí se encuentran los servicios utilizados para lógica de negocio o comunicación con APIs externas.
