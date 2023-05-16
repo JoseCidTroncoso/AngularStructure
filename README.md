@@ -27,7 +27,9 @@ A continuación se muestra la estructura de carpetas recomendada para proyectos 
 Esta estructura de carpetas es una recomendación general y puedes adaptarla según las necesidades específicas de tu proyecto.
 
 ***
-A list of technologies used within the project:
-* [Technologie name](https://example.com): Version 12.3 
-* [Technologie name](https://example.com): Version 2.34
-* [Library name](https://example.com): Version 1234
+## Table of Contents
+1. [General Info](#general-info)
+2. [Technologies](#technologies)
+3. [Installation](#installation)
+4. [Collaboration](#collaboration)
+5. [FAQs](#faqs)
