@@ -70,7 +70,7 @@ Esta estructura de carpetas se encuentra optimizada para proyectos de Angular en
 
 ---
 ## 📚 Descripción de Carpetas y Archivos
----
+
 | Carpeta/Archivo    | Descripción                                                                                       |
 |--------------------|---------------------------------------------------------------------------------------------------|
 | src/               | Carpeta raíz que contiene todo el código fuente de tu aplicación.                                |
@@ -84,7 +84,7 @@ Esta estructura de carpetas se encuentra optimizada para proyectos de Angular en
 | src/app/enums/     | Contiene las enumeraciones utilizadas en tu aplicación.                                           |
 | src/app/pipes/     | Contiene los pipes personalizados utilizados para transformar datos en tus plantillas.  |
 | src/app/directives/| Contiene las directivas personalizadas utilizadas en tu aplicación.                               |
-| src/assets/        | Carpeta que contiene los recursos estáticos de tu aplicación, como imágenes, frameworks de diseño UI que no se instalen por npm, etc. |
+| src/assets/        | Carpeta que contiene los recursos estáticos de tu aplicación, como imágenes, frameworks de diseño UI que no se instalen mediante npm, etc. |
 | src/environments/  | Carpeta que contiene los archivos de configuración para diferentes entornos, como desarrollo y producción. |
 | src/index.html     | Archivo HTML principal de tu aplicación.                                                          |
 | src/main.ts        | Punto de entrada de tu aplicación.                                                                |
