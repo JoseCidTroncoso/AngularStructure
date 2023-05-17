@@ -77,19 +77,18 @@ A continuación se muestra la estructura de carpetas recomendada para proyectos 
 | Carpeta/Archivo    | Descripción                                                                                       |
 |--------------------|---------------------------------------------------------------------------------------------------|
 | src/               | Carpeta raíz que contiene todo el código fuente de tu aplicación.                                |
-| src/app/           | Carpeta que contiene el código específico de tu aplicación. . Estos deben ser organizados en subcarpetas según su función o características |
-| src/app/components/| Contiene los componentes de tu aplicación.                                                        |
-| src/app/services/  | Aquí se encuentran los servicios utilizados para lógica de negocio o comunicación con APIs externas.|
+| src/app/           | Carpeta que contiene el código específico de tu aplicación.                                       |
+| src/app/components/| Contiene los componentes de tu aplicación, estos deben ser organizados en subcarpetas según su función o características |
+| src/app/services/  | Aquí se deberan colocar los servicios utilizados para lógica de negocio o comunicación con APIs externas.|
 | src/app/models/    | Contiene las definiciones de modelos de datos utilizados en tu aplicación.                        |
-| src/app/modules/   | Carpeta que contiene los módulos de tu aplicación.                                                |
-| src/app/guards/    | Contiene los guardias de ruta utilizados para proteger rutas en tu aplicación.                    |
+| src/app/modules/   | Carpeta que contiene los módulos de tu aplicación, estos deben ser organizados en carpetas según las características o funcionalidades que proporcionen |
+| src/app/guards/    | Contiene los "guardias de ruta" utilizados para proteger rutas en tu aplicación.                    |
 | src/app/interceptors/ | Carpeta que contiene los interceptores de peticiones HTTP.                                      |
 | src/app/enums/     | Contiene las enumeraciones utilizadas en tu aplicación.                                           |
-| src/app/pipes/     | Aquí se encuentran los pipes personalizados utilizados para transformar datos en tus plantillas.  |
+| src/app/pipes/     | Contiene los pipes personalizados utilizados para transformar datos en tus plantillas.  |
 | src/app/directives/| Contiene las directivas personalizadas utilizadas en tu aplicación.                               |
-| src/app/assets/    | Carpeta que contiene los archivos estáticos, como imágenes o archivos de estilos globales.        |
-| src/assets/        | Carpeta que contiene los recursos estáticos de tu aplicación.                                     |
-| src/environments/  | Carpeta que contiene los archivos de configuración para diferentes entornos.                      |
+| src/assets/        | Carpeta que contiene los recursos estáticos de tu aplicación, como imágenes, frameworks de diseño UI que no se instalen por npm, etc. |
+| src/environments/  | Carpeta que contiene los archivos de configuración para diferentes entornos, como desarrollo y producción. |
 | src/index.html     | Archivo HTML principal de tu aplicación.                                                          |
 | src/main.ts        | Punto de entrada de tu aplicación.                                                                |
 | src/styles.css     | Archivo de estilos globales de tu aplicación.                                                     |
