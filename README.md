@@ -11,9 +11,9 @@ Esta estructura de carpetas se encuentra optimizada para proyectos de Angular en
 
 ## 📚 Descripción de Carpetas y Archivos
 
-- **src**: Carpeta raíz que contiene todo el código fuente de tu aplicación.
-    - **app**: Carpeta que contiene el código específico de tu aplicación.
-        - **components**: Contiene los componentes de tu aplicación. Estos deben ser organizados en subcarpetas según su función o características.
+- **<h3>src</h3>**: Carpeta raíz que contiene todo el código fuente de tu aplicación.
+    - **<h4>app</h4>**: Carpeta que contiene el código específico de tu aplicación.
+        - **<h5>components</h5>**: Contiene los componentes de tu aplicación. Estos deben ser organizados en subcarpetas según su función o características.
             - shared
                 - shared.component.ts
                 - shared.component.html
@@ -26,7 +26,7 @@ Esta estructura de carpetas se encuentra optimizada para proyectos de Angular en
                 - component2.component.ts
                 - component2.component.html
                 - component2.component.css
-        - **services**: Aquí se encuentran los servicios utilizados para lógica de negocio o comunicación con APIs externas.
+        - **</h5>services</h5>**: Aquí se encuentran los servicios utilizados para lógica de negocio o comunicación con APIs externas.
         - **models**: Contiene las definiciones de modelos de datos utilizados en tu aplicación.
         - **modules**: Carpeta que contiene los módulos de tu aplicación. Deben ser organizados en carpetas según las características o funcionalidades que proporcionen.
         - **guards**: Contiene los guardias de ruta utilizados para proteger rutas en tu aplicación.
