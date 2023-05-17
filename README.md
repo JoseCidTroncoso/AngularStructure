@@ -1,7 +1,7 @@
 <div align="center">
-  <h1>Estructura de Carpetas Recomendada</h1>
+  <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular Logo" width="150px">
+  <h1>Estructura de Carpetas Recomendadas</h1>
   <h1>para una Aplicación en Angular</h1>
-  <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular Logo" width="200px">
 </div>
 
 ---
@@ -68,12 +68,9 @@ Esta estructura de carpetas se encuentra optimizada para proyectos de Angular en
 - tsconfig.json
 - tslint.json
 
+---
 ## 📚 Descripción de Carpetas y Archivos
-
-# Estructura de Carpetas Recomendada para una Aplicación en Angular 14
-
-A continuación se muestra la estructura de carpetas recomendada para proyectos de Angular 14:
-
+---
 | Carpeta/Archivo    | Descripción                                                                                       |
 |--------------------|---------------------------------------------------------------------------------------------------|
 | src/               | Carpeta raíz que contiene todo el código fuente de tu aplicación.                                |
@@ -99,3 +96,10 @@ A continuación se muestra la estructura de carpetas recomendada para proyectos 
 
 ---
 
+## Fuente:
+1. [Documentacion de angular](https://angular.io/docs)
+2. [ChatGPT](https://chat.openai.com/)
+3. Mi experiencia como desarrollador.
+
+## Autor:
+### José Ant. Cid Troncoso
