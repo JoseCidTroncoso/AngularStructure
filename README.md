@@ -11,9 +11,9 @@ Esta estructura de carpetas se encuentra optimizada para proyectos de Angular en
 
 ## 📚 Descripción de Carpetas y Archivos
 
-- **src**: Carpeta raíz que contiene todo el código fuente de tu aplicación.
-    - **app**: Carpeta que contiene el código específico de tu aplicación.
-        - **components**: Contiene los componentes de tu aplicación. Estos deben ser organizados en subcarpetas según su función o características.
+- **src**: _Carpeta raíz que contiene todo el código fuente de tu aplicación_.
+    - **app**: _Carpeta que contiene el código específico de tu aplicación_.
+        - **components**: _Contiene los componentes de tu aplicación. Estos deben ser organizados en subcarpetas según su función o características_.
             - shared
                 - shared.component.ts
                 - shared.component.html
