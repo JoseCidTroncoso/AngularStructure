@@ -5,7 +5,6 @@
 </div>
 
 ---
-
 ## 📂 Estructura de Carpetas
 Esta estructura de carpetas se encuentra optimizada para proyectos de Angular en versiones desde 10 en adelante:
 
@@ -69,7 +68,7 @@ Esta estructura de carpetas se encuentra optimizada para proyectos de Angular en
 - tslint.json
 
 ---
-## 📚 Descripción de Carpetas y Archivos
+## 📝 Descripción de Carpetas y Archivos
 
 | Carpeta/Archivo    | Descripción                                                                                       |
 |--------------------|---------------------------------------------------------------------------------------------------|
@@ -81,7 +80,7 @@ Esta estructura de carpetas se encuentra optimizada para proyectos de Angular en
 | src/app/modules/   | Carpeta que contiene los módulos de tu aplicación, estos deben ser organizados en carpetas según las características o funcionalidades que proporcionen |
 | src/app/guards/    | Contiene los "guardias de ruta" utilizados para proteger rutas en tu aplicación.                    |
 | src/app/interceptors/ | Carpeta que contiene los interceptores de peticiones HTTP.                                      |
-| src/app/enums/     | Contiene las enumeraciones utilizadas en tu aplicación.                                           |
+| src/app/enums/     | Contiene las enumeraciones utilizadas en tu aplicación, esta es una estructura de datos que permite definir un conjunto de valores constantes con nombre. Un enum se utiliza para representar un conjunto finito y conocido de opciones o valores posibles para una determinada propiedad o variable. |
 | src/app/pipes/     | Contiene los pipes personalizados utilizados para transformar datos en tus plantillas.  |
 | src/app/directives/| Contiene las directivas personalizadas utilizadas en tu aplicación.                               |
 | src/assets/        | Carpeta que contiene los recursos estáticos de tu aplicación, como imágenes, frameworks de diseño UI que no se instalen mediante npm, etc. |
@@ -95,45 +94,46 @@ Esta estructura de carpetas se encuentra optimizada para proyectos de Angular en
 | tslint.json        | Archivo de configuración para las reglas de linting de TypeScript.                               |
 
 ---
-## 📚 Recomendaciones y Consideraciones para el Desarrollo de Aplicaciones en Angular
-
+## 🌟 Recomendaciones y Consideraciones para el Desarrollo de Aplicaciones en Angular
 
 ### ***Reutilización de componentes:***
-* Identificar funcionalidades recurrentes en varios sitios de la aplicación y desarrollar componentes reutilizables para ellas. Estos componentes pueden ser insertados en diferentes partes de la aplicación utilizando etiquetas HTML.
+* Identificar funcionalidades o elementos de la interfaz de usuario que sean recurrentes en diferentes partes de la aplicación y desarrollar componentes reutilizables para encapsular y manejar esas funcionalidades de manera modular, se debe tener en cuenta la modularidad y la separación de responsabilidades al desarrollar los componentes, para que sean lo más independientes y reutilizables posible.
 
 ### ***Separación de responsabilidades:***
 * Aplicar el principio de responsabilidad única para mantener los componentes lo más enfocados y cohesivos posible. Cada componente debe tener una única responsabilidad y no debe abarcar funcionalidades demasiado diversas.
 
 ### ***División en módulos:***
-  Organizar la aplicación en módulos, lo cual permite una mejor modularidad y facilita el mantenimiento y la reutilización de código. Cada módulo debe tener un propósito claro y agrupar componentes y servicios relacionados.
+* Organizar la aplicación en módulos, lo cual permite una mejor modularidad y facilita el mantenimiento y la reutilización de código. Cada módulo debe tener un propósito claro y agrupar componentes y servicios relacionados.
 
 ### ***Gestión de estado:***
-Utilizar una biblioteca de gestión de estado, como Redux o NgRx, para administrar el estado de la aplicación de manera centralizada. Esto facilita el manejo de datos y la comunicación entre componentes.
+* Utilizar una biblioteca de gestión de estado, como Redux o NgRx, para administrar el estado de la aplicación de manera centralizada. Esto facilita el manejo de datos y la comunicación entre componentes.
 
 ### ***Optimización del rendimiento:***
-Aplicar técnicas de optimización de rendimiento, como la detección de cambios OnPush y el uso de observables en lugar de promesas cuando sea posible. Esto ayuda a mejorar la eficiencia y la velocidad de la aplicación.
+* Aplicar técnicas de optimización de rendimiento, como la detección de cambios OnPush y el uso de observables en lugar de promesas cuando sea posible. Esto ayuda a mejorar la eficiencia y la velocidad de la aplicación.
 
 ### ***Buena práctica de nombres:***
-Utilizar nombres descriptivos y significativos para las variables, componentes, servicios, etc. Esto mejora la legibilidad del código y facilita la comprensión para otros desarrolladores.
+* Utilizar nombres descriptivos y significativos para las variables, componentes, servicios, etc. Esto mejora la legibilidad del código y facilita la comprensión para otros desarrolladores.
 
 ### ***Pruebas unitarias:***
-Escribir pruebas unitarias para validar el funcionamiento correcto de los componentes y servicios. Esto ayuda a detectar errores y garantiza un código más confiable y robusto.
+* Escribir pruebas unitarias para validar el funcionamiento correcto de los componentes y servicios. Esto ayuda a detectar errores y garantiza un código más confiable y robusto.
 
 ### ***Documentación:***
-Mantener una documentación clara y actualizada de la aplicación, incluyendo explicaciones de arquitectura, componentes clave, flujos de trabajo y convenciones de codificación. Esto facilita la colaboración y el mantenimiento a largo plazo.
+* Mantener una documentación clara y actualizada de la aplicación, incluyendo explicaciones de arquitectura, componentes clave, flujos de trabajo y convenciones de codificación. Esto facilita la colaboración y el mantenimiento a largo plazo.
 
 ### ***Control de versiones:***
-Utilizar un sistema de control de versiones, como Git, para realizar un seguimiento de los cambios y facilitar la colaboración en equipo. Esto permite mantener un historial de versiones, gestionar conflictos y revertir cambios si es necesario.
+* Utilizar un sistema de control de versiones, como Git, para realizar un seguimiento de los cambios y facilitar la colaboración en equipo. Esto permite mantener un historial de versiones, gestionar conflictos y revertir cambios si es necesario.
 
 ### ***Seguridad:***
-Aplicar buenas prácticas de seguridad, como la validación de entrada, el manejo seguro de datos confidenciales y la protección contra vulnerabilidades conocidas. Esto ayuda a proteger la aplicación contra posibles ataques y garantiza la privacidad y la integridad de los datos.
+* Aplicar buenas prácticas de seguridad, como la validación de entrada, el manejo seguro de datos confidenciales y la protección contra vulnerabilidades conocidas. Esto ayuda a proteger la aplicación contra posibles ataques y garantiza la privacidad y la integridad de los datos.
+
 
 ---
 
-## Fuente:
+## 📚 Fuente:
 1. [Documentacion de angular](https://angular.io/docs)
 2. [ChatGPT](https://chat.openai.com/)
 3. Mi experiencia como desarrollador.
 
-## Autor:
+---
+## 👤 Autor:
 ### José Ant. Cid Troncoso
