@@ -99,10 +99,10 @@ Esta estructura de carpetas se encuentra optimizada para proyectos de Angular en
 
 
 ### ***Reutilización de componentes:***
-  Identificar funcionalidades recurrentes en varios sitios de la aplicación y desarrollar componentes reutilizables para ellas. Estos componentes pueden ser insertados en diferentes partes de la aplicación utilizando etiquetas HTML.
+* Identificar funcionalidades recurrentes en varios sitios de la aplicación y desarrollar componentes reutilizables para ellas. Estos componentes pueden ser insertados en diferentes partes de la aplicación utilizando etiquetas HTML.
 
 ### ***Separación de responsabilidades:***
-  Aplicar el principio de responsabilidad única para mantener los componentes lo más enfocados y cohesivos posible. Cada componente debe tener una única responsabilidad y no debe abarcar funcionalidades demasiado diversas.
+* Aplicar el principio de responsabilidad única para mantener los componentes lo más enfocados y cohesivos posible. Cada componente debe tener una única responsabilidad y no debe abarcar funcionalidades demasiado diversas.
 
 ### ***División en módulos:***
   Organizar la aplicación en módulos, lo cual permite una mejor modularidad y facilita el mantenimiento y la reutilización de código. Cada módulo debe tener un propósito claro y agrupar componentes y servicios relacionados.
